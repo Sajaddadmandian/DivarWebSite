@@ -8,7 +8,7 @@ async function main() {
   const port = process.env.PORT;
   require("./src/config/mongoose.config")
   app.listen(3000, () => {
-    console.log("server: http://localhost:3000");
+    console.log(`server: http://localhost:${port}`);
   });
 }
 
