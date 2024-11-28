@@ -1,10 +1,5 @@
 class AuthService {
-    async sendOTP(mobile){
-        
-    }
- async chechkOTP(movile, code){
-        
-    }
-    
+  async sendOTP(mobile) {}
+  async chechkOTP(mobile, code) {}
 }
-module.exports = new AuthService()
+module.exports = new AuthService();
